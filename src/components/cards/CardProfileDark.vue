@@ -1,5 +1,9 @@
 <template>
-  <q-card class="text-white no-shadow" bordered style="background-color: #181c4d">
+  <q-card
+    class="text-white no-shadow"
+    bordered
+    style="background-color: #181c4d"
+  >
     <q-card-section>
       <div class="text-h6 q-pa-sm">
         {{ name }}
@@ -15,14 +19,12 @@
 </template>
 
 <script>
-import {defineComponent} from 'vue'
+import { defineComponent } from "vue";
 
 export default defineComponent({
   name: "CardProfileDark",
-  props:['name','des','text']
-})
+  props: ["name", "des", "text"],
+});
 </script>
 
-<style scoped>
-
-</style>
+<style scoped></style>

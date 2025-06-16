@@ -1,9 +1,8 @@
 **Quasar Prime Admin Template** (Join 62+ satisfied clients who have already unlocked the full potential of their dashboards): [https://quasar-prime-admin-template.netlify.app/analytics](https://quasar-prime-admin-template.netlify.app/analytics). Quasar Prime: Vue.js Admin Template – Powerfully Elegant, Ultimate Dashboard Solution! 🚀 Unlock the full potential of the code by sponsoring for (~~$549~~)$249 one time(Launching price), a one-time payment that grants you exclusive access to the template.
 
-Quasar Admin Premium Demo: [https://quasar-admin-premium.netlify.app/](https://quasar-admin-premium.netlify.app/). Looking for beautiful premium Quasar admin template for Vue 3? To gain access to the code, you'll need to sponsor me for $69 per month (one-time payment). Please visit my sponsorship page([sponsor me](https://github.com/sponsors/pratik227)). Good News 🎉🎉 I want to let you know that I recently made some updates to my Quasar Admin Premium template, and it's now also available for Typescript with Composition API and <script setup>. 
+Quasar Admin Premium Demo: [https://quasar-admin-premium.netlify.app/](https://quasar-admin-premium.netlify.app/). Looking for beautiful premium Quasar admin template for Vue 3? To gain access to the code, you'll need to sponsor me for $69 per month (one-time payment). Please visit my sponsorship page([sponsor me](https://github.com/sponsors/pratik227)). Good News 🎉🎉 I want to let you know that I recently made some updates to my Quasar Admin Premium template, and it's now also available for Typescript with Composition API and <script setup>.
 
 Looking for minimalist Quasar template? I have the perfect solution for you. Simply sponsor me $49 a month for once [Sponsor](https://github.com/sponsors/pratik227) and you will gain access to the repo. Check out the website at https://quasar-minimalist-design.netlify.app/.
-
 
 # Quasar Admin Template
 
@@ -24,22 +23,25 @@ Be sure to check out my sponsor page.
 Thank you so much!!!
 
 ## Install the dependencies
+
 ```bash
 npm install
 ```
 
 ### Start the app in development mode (hot-code reloading, error reporting, etc.)
+
 ```bash
 quasar dev
 ```
 
-
 ### Build the app for production
+
 ```bash
 quasar build
 ```
 
 ## Screens UI
+
 **Login**
 
 ![Alt text](src/assets/Login.png?raw=true "Screenshot")
@@ -60,22 +62,20 @@ quasar build
 
 ![Alt text](src/assets/Lock-1.png?raw=true "Screenshot")
 
-
 **Lock Screen 2**
 
 ![Alt text](src/assets/Lock-2.png?raw=true "Screenshot")
-
 
 **Pricing**
 
 ![Alt text](src/assets/Pricing.png?raw=true "Screenshot")
 
-
 ### Customize the configuration
+
 See [Configuring quasar.conf.js](https://quasar.dev/quasar-cli/quasar-conf-js).
 
-### Sponsors  
-  
+### Sponsors
+
 <p align="center">
   <a href="https://github.com/pratik227/static/blob/main/sponsors.svg">
     <img src='https://github.com/pratik227/static/blob/main/sponsors.svg'/>
