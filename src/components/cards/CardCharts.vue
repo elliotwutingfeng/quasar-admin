@@ -120,13 +120,13 @@ export default defineComponent({
           {
             type: "bar",
             barGap: "-100%",
-            itemStyle: { normal: { color: "rgba(0,0,0,0.1)" } },
+            itemStyle: { color: "rgba(0,0,0,0.1)" },
             barWidth: "50%",
           },
           {
             barWidth: "50%",
             type: "bar",
-            itemStyle: { normal: { color: "#ffffff" } },
+            itemStyle: { color: "#ffffff" },
           },
         ],
         dataset: {

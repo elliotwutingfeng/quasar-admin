@@ -345,34 +345,19 @@
   </q-layout>
 </template>
 
-<script>
+<script setup>
 import EssentialLink from "components/EssentialLink.vue";
 import Messages from "./Messages.vue";
 
-import { defineComponent, ref } from "vue";
+import { ref } from "vue";
 import { useQuasar } from "quasar";
 
-export default defineComponent({
-  name: "MainLayout",
+const leftDrawerOpen = ref(false);
+const $q = useQuasar();
 
-  components: {
-    EssentialLink,
-    Messages,
-  },
-
-  setup() {
-    const leftDrawerOpen = ref(false);
-    const $q = useQuasar();
-
-    return {
-      $q,
-      leftDrawerOpen,
-      toggleLeftDrawer() {
-        leftDrawerOpen.value = !leftDrawerOpen.value;
-      },
-    };
-  },
-});
+function toggleLeftDrawer() {
+  leftDrawerOpen.value = !leftDrawerOpen.value;
+}
 </script>
 
 <style>
